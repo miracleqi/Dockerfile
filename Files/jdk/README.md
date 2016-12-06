@@ -10,5 +10,6 @@ Problems
 
 原因在于使用下面方法下载时  
 wget http://http://download.oracle.com/otn-pub/java/jdk/8u111-b14/jdk-8u111-linux-x64.tar.gz  
-没有得到Oracle认证，因此下载得到的文件，其实是一个提示认证失败的html文件  
+因为Oracle官网下载jdk，需要点击accept licence才能下载  
+因此下载得到的文件，其实是一个提示认证失败的html文件  
 
