@@ -1,5 +1,5 @@
 由于jdk使用wget下载过于缓慢，因此已上传docker镜像  
-docker pull m290557551/jdk:1.8.0_111-x64
+docker pull m290557551/jdk:jdk_1.8.0_111-x64
 
 Problems  
 1. tar -zxvf jdk-8u111-linux-x64.tar.gz失败  
