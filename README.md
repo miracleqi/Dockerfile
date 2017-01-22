@@ -14,14 +14,14 @@ Donation
 PayPal
 ------
 
-[通过 PayPal 来支持我](https://www.paypal.me/miracleqi)
+[通过 PayPal 来支持 OpenWAF](https://www.paypal.me/miracleqi)
 
 Alipay
 ------
-通过支付宝来支持我  
-![image](https://github.com/miracleqi/Alipayimage/blob/master/Alipay%20two-dimension%20code.png)
 
-weixin
+<img src="https://github.com/miracleqi/Alipayimage/blob/master/Alipay%20two-dimension%20code.png">
+
+WeChat
 ------
-通过微信来支持我  
-![image](https://github.com/miracleqi/Alipayimage/blob/master/weixin%20two-dimension%20code.png)
+
+<img src="https://github.com/miracleqi/Alipayimage/blob/master/weixin%20two-dimension%20code.png">
