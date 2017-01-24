@@ -19,9 +19,9 @@ PayPal
 Alipay
 ------
 
-<img src="https://github.com/miracleqi/Alipayimage/blob/master/Alipay%20two-dimension%20code.png">
+<img src="http://i.imgur.com/0rSpXc8.png">
 
 WeChat
 ------
 
-<img src="https://github.com/miracleqi/Alipayimage/blob/master/weixin%20two-dimension%20code.png">
+<img src="http://i.imgur.com/FzbU2z4.png">
