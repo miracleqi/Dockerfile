@@ -26,7 +26,6 @@ ARG CONFIG_OPTIONS=" \
     --with-pcre=${OPENWAF_PREFIX}/pcre-${PCRE_VERSION} \ 
     "
     
-#make,c++ packages
 RUN yum install gcc gcc-c++ wget -y
     
 #1.install openrestry related
@@ -62,11 +61,6 @@ RUN cd ${OPENWAF_PREFIX} \
         openresty-${OPENRESTY_VERSION} \ 
         openssl-${OPENSSL_VERSION}.tar.gz \ 
         openresty-${OPENRESTY_VERSION}.tar.gz
-
-#缺的 gd-devel libxslt-devel unzip
-#多的 automake autoconf libtool sudo net-tools vim autoremove (apt-get)
-#ln -sf /dev/stdout /usr/local/openresty/nginx/logs/access.log \
-#ln -sf /dev/stderr /usr/local/openresty/nginx/logs/error.log
 
 ENV PATH=${OPENRESTY_PREFIX}/nginx/sbin/:${OPENRESTY_PREFIX}/bin/:$PATH
 
