@@ -26,7 +26,6 @@ ARG CONFIG_OPTIONS=" \
     --with-pcre=${OPENWAF_PREFIX}/pcre-${PCRE_VERSION} \ 
     "
     
-#make,c++ packages
 RUN apt-get update \
     && apt-get install wget -y
     
@@ -63,11 +62,6 @@ RUN cd ${OPENWAF_PREFIX} \
         openresty-${OPENRESTY_VERSION} \ 
         openssl-${OPENSSL_VERSION}.tar.gz \ 
         openresty-${OPENRESTY_VERSION}.tar.gz
-
-#缺的 ca-certificates libgd-dev libperl-dev libxslt1-dev unzip curl
-#多的 gcc automake autoconf libtool g++ sudo net-tools vim autoremove
-#ln -sf /dev/stdout /usr/local/openresty/nginx/logs/access.log \
-#ln -sf /dev/stderr /usr/local/openresty/nginx/logs/error.log
 
 ENV PATH=${OPENRESTY_PREFIX}/nginx/sbin/:${OPENRESTY_PREFIX}/bin/:$PATH
 
